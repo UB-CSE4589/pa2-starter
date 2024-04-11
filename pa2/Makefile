@@ -6,7 +6,7 @@ BINS = abt gbn sr
 
 LIBS = 
 CC	= gcc
-CFLAGS	= -g -I$(INC_DIR)
+CFLAGS	= -g -I$(INC_DIR) -std=c99
 
 all: $(BINS)
 
